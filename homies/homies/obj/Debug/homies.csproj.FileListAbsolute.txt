@@ -1,0 +1,7 @@
+D:\Bootcamp\projects\Homies\homies\homies\bin\Debug\homies.exe.config
+D:\Bootcamp\projects\Homies\homies\homies\bin\Debug\homies.exe
+D:\Bootcamp\projects\Homies\homies\homies\bin\Debug\homies.pdb
+D:\Bootcamp\projects\Homies\homies\homies\obj\Debug\homies.csprojAssemblyReference.cache
+D:\Bootcamp\projects\Homies\homies\homies\obj\Debug\homies.csproj.CoreCompileInputs.cache
+D:\Bootcamp\projects\Homies\homies\homies\obj\Debug\homies.exe
+D:\Bootcamp\projects\Homies\homies\homies\obj\Debug\homies.pdb
