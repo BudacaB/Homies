@@ -13,7 +13,7 @@ namespace homies
         public string Firstname { get; set; }
         public string Lastname { get; set; }
         public int Age { get; set; }
-        public List<Homie> Friends { get; set; }
+        public List<Object> Friends { get; set; }
 
         public Homie(HomieAddress paramAddress, string paramFirstname, string paramLastname, int paramAge)
         {
@@ -21,10 +21,10 @@ namespace homies
             this.Firstname = paramFirstname;
             this.Lastname = paramLastname;
             this.Age = paramAge;
-            this.Friends = new List<Homie>();
+            this.Friends = new List<Object>();
         }
 
-        public string ShowHomie()
+        public string ShowHomieDetail()
         {
             return Firstname + " " + Lastname + ", " + Age + ", from " + Address.ShowAddress();
         }

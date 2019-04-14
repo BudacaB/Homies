@@ -25,10 +25,12 @@ namespace homies
             budak.Friends.Add(andrei);
             budak.Friends.Add(buhanu);
 
-            Console.WriteLine(budak.ShowHomie());
+
+            Console.WriteLine(budak.ShowHomieDetail());
             foreach (var friend in budak.Friends)
             {
-                Console.WriteLine(friend.ShowHomie());
+                (friend as Homie).ShowHomieDetail();
+                //Console.WriteLine(friend.ShowHomieDetail());
             }
             Console.ReadLine();
         }
